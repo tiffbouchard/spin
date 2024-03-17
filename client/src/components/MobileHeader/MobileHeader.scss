@@ -1,0 +1,40 @@
+.mobile-header {
+    height: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-cont {
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            img {
+                height: 40px;
+                margin-right: 10px;
+            }
+            h2 {
+                color: black;
+            }
+        }
+    }
+}
+
+.mobile-thumbnail-small {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .mobile-header {
+      display: none;
+    }
+  }

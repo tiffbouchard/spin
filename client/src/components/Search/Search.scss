@@ -1,0 +1,35 @@
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    width: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: rgb(37, 37, 37);
+    margin-right: 10px;
+}
+
+.formactive {
+    border: solid 2px black;
+}
+
+
+@media only screen and (max-width: 680px) {
+    form {
+        width: 100%;
+      margin-right: 0px;
+      display: flex;
+      align-items: center;
+    }
+  }

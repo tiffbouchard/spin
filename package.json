@@ -1,0 +1,26 @@
+{
+    "name": "spotify-app",
+    "version": "1.0.0",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "server": "nodemon server.js",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.6.0",
+        "express": "^4.16.4",
+        "morgan": "^1.10.0",
+        "nodemon": "^3.0.3",
+        "path": "^0.12.7",
+        "react-tilt": "^1.0.2",
+        "request": "^2.88.2",
+        "serve-favicon": "^2.5.0",
+        "yarn": "^1.22.21"
+    },
+    "devDependencies": {
+        "concurrently": "^4.0.1"
+    }
+}

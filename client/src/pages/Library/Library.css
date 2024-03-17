@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-stack {
+    position: relative;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+  
+}
+  
+  .image-stack .flip-card {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transition: transform 0.4s ease; /* Default transition property for all images */
+    transform: translateY(var(--translate-amount)) scale(var(--scale-factor)); /* Expand each image based on CSS custom property */    
+  }
+
+  .image-stack.expanded .flip-card{
+    transform: translateY(var(--expanded-translate-amount)); /* Expand each image based on CSS custom property */    
+}
+  

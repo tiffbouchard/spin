@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Helvetica Neue, 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.thumbnail {
+  min-height: 100px;
+  min-width: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.thumbnail:hover, .album-thumbnail:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+
+
+.thumbnail img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}

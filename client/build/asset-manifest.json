@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d4c78b3.chunk.css",
+    "main.js": "/static/js/main.5e18861f.chunk.js",
+    "main.js.map": "/static/js/main.5e18861f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e79ac57.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e79ac57.js.map",
+    "static/js/2.ce94530b.chunk.js": "/static/js/2.ce94530b.chunk.js",
+    "static/js/2.ce94530b.chunk.js.map": "/static/js/2.ce94530b.chunk.js.map",
+    "static/js/3.1635e50e.chunk.js": "/static/js/3.1635e50e.chunk.js",
+    "static/js/3.1635e50e.chunk.js.map": "/static/js/3.1635e50e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6d4c78b3.chunk.css.map": "/static/css/main.6d4c78b3.chunk.css.map",
+    "static/js/2.ce94530b.chunk.js.LICENSE.txt": "/static/js/2.ce94530b.chunk.js.LICENSE.txt",
+    "static/media/Spotify_Icon_RGB_Green.cd66b8f6.png": "/static/media/Spotify_Icon_RGB_Green.cd66b8f6.png",
+    "static/media/Spotify_Icon_RGB_White.ecd54051.png": "/static/media/Spotify_Icon_RGB_White.ecd54051.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e79ac57.js",
+    "static/js/2.ce94530b.chunk.js",
+    "static/css/main.6d4c78b3.chunk.css",
+    "static/js/main.5e18861f.chunk.js"
+  ]
+}

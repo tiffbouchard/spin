@@ -1,0 +1,119 @@
+.related {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+}
+
+.related-tracks {
+    margin: 0px 20px;
+
+}
+
+.play-overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(250, 250, 250, 0.3);
+    border-radius: 10px;
+    
+}
+
+.play-overlay-trigger {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.play-overlay-trigger:hover {
+    background-color: transparent;
+}
+
+
+.track-thumbnail {
+    height: px;
+    width: 50px;
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+}
+
+.current-artist {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 40px 20px;
+    .thumbnail {
+        height: 150px;
+        width: 150px;
+        min-height: 150px;
+        min-width: 150px;
+    }
+    .about {
+        margin-left: 20px;
+        h2 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+            a {
+                margin-left: 10px;
+                font-size: 13px;
+            }
+        }
+        .stats {
+            margin-left: 4px;
+        }
+        .tags {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            small {
+                background: rgb(245, 245, 245);
+                margin: 0 5px 5px 0;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.info-card {
+    margin-bottom: 40px;
+    padding: 10px 0px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.artist {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    small {
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .current-artist {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+  }

@@ -1,0 +1,16 @@
+.content {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    div {
+        display: flex;
+        button {
+            margin: 5px;
+        }
+    }
+}
